@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 4be51ebb9bfaef9469b82d6de59a4b81
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    100002: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.dds
+    100004: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.dds
+    100006: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.dds
+    100008: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.dds
+    100010: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.dds
+    100012: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.dds
+    100014: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.dds
+    100016: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.dds
+    100018: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    100020: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.dds
+    100022: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.dds
+    100024: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.dds
+    100026: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.dds
+    100028: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.dds
+    100030: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.dds
+    100032: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.dds
+    100034: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.dds
+    100036: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.dds
+    100038: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.dds
+    100040: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.dds
+    100042: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.dds
+    100044: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.dds
+    100046: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    100048: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    100050: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.dds
+    100052: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.dds
+    100054: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    100056: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.dds
+    100058: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.dds
+    100060: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.dds
+    100062: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.dds
+    100064: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.dds
+    100066: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.dds
+    100068: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.dds
+    100070: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.dds
+    100072: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.dds
+    100074: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.dds
+    100076: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.dds
+    100078: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.dds
+    100080: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.dds
+    100082: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.dds
+    100084: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.dds
+    100086: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.dds
+    100088: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.dds
+    100090: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.dds
+    100092: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.dds
+    100094: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.dds
+    100096: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.dds
+    100098: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.dds
+    100100: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.dds
+    100102: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.dds
+    100104: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.dds
+    100106: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.dds
+    100108: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.dds
+    100110: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.dds
+    100112: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.dds
+    100114: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.dds
+    100116: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.dds
+    100118: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.dds
+    100120: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.dds
+    100122: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.dds
+    100124: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.dds
+    100126: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.dds
+    100128: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.dds
+    100130: //RootNode
+    400000: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    400002: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.dds
+    400004: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.dds
+    400006: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.dds
+    400008: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.dds
+    400010: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.dds
+    400012: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.dds
+    400014: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.dds
+    400016: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.dds
+    400018: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    400020: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.dds
+    400022: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.dds
+    400024: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.dds
+    400026: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.dds
+    400028: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.dds
+    400030: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.dds
+    400032: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.dds
+    400034: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.dds
+    400036: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.dds
+    400038: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.dds
+    400040: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.dds
+    400042: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.dds
+    400044: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.dds
+    400046: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    400048: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    400050: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.dds
+    400052: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.dds
+    400054: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    400056: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.dds
+    400058: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.dds
+    400060: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.dds
+    400062: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.dds
+    400064: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.dds
+    400066: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.dds
+    400068: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.dds
+    400070: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.dds
+    400072: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.dds
+    400074: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.dds
+    400076: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.dds
+    400078: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.dds
+    400080: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.dds
+    400082: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.dds
+    400084: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.dds
+    400086: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.dds
+    400088: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.dds
+    400090: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.dds
+    400092: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.dds
+    400094: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.dds
+    400096: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.dds
+    400098: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.dds
+    400100: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.dds
+    400102: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.dds
+    400104: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.dds
+    400106: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.dds
+    400108: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.dds
+    400110: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.dds
+    400112: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.dds
+    400114: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.dds
+    400116: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.dds
+    400118: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.dds
+    400120: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.dds
+    400122: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.dds
+    400124: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.dds
+    400126: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.dds
+    400128: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.dds
+    400130: //RootNode
+    2100000: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.ddsMat
+    2100002: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.ddsMat
+    2100004: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.ddsMat
+    2100006: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.ddsMat
+    2100008: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.ddsMat
+    2100010: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.ddsMat
+    2100012: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.ddsMat
+    2100014: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.ddsMat
+    2100016: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.ddsMat
+    2100018: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.ddsMat
+    2100020: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.ddsMat
+    2100022: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.ddsMat
+    2100024: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.ddsMat
+    2100026: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.ddsMat
+    2100028: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.ddsMat
+    2100030: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.ddsMat
+    2100032: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.ddsMat
+    2100034: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.ddsMat
+    2100036: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.ddsMat
+    2100038: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.ddsMat
+    2100040: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.ddsMat
+    2100042: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.ddsMat
+    2100044: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.ddsMat
+    2100046: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.ddsMat
+    2100048: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.ddsMat
+    2100050: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.ddsMat
+    2100052: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.ddsMat
+    2100054: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.ddsMat
+    2100056: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.ddsMat
+    2100058: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.ddsMat
+    2100060: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.ddsMat
+    2100062: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.ddsMat
+    2100064: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.ddsMat
+    2100066: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.ddsMat
+    2100068: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.ddsMat
+    2100070: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.ddsMat
+    2100072: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.ddsMat
+    2100074: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.ddsMat
+    2100076: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.ddsMat
+    2100078: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.ddsMat
+    2100080: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.ddsMat
+    2100082: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.ddsMat
+    2100084: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.ddsMat
+    2100086: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.ddsMat
+    2100088: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.ddsMat
+    2100090: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.ddsMat
+    2100092: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.ddsMat
+    2100094: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.ddsMat
+    2100096: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.ddsMat
+    2100098: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.ddsMat
+    2100100: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.ddsMat
+    2100102: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.ddsMat
+    2100104: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.ddsMat
+    2100106: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.ddsMat
+    2100108: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.ddsMat
+    2100110: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.ddsMat
+    2100112: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.ddsMat
+    2100114: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.ddsMat
+    2100116: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.ddsMat
+    2100118: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.ddsMat
+    2100120: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.ddsMat
+    2100122: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.ddsMat
+    2100124: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.ddsMat
+    2100126: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.ddsMat
+    2100128: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.ddsMat
+    2300000: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    2300002: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.dds
+    2300004: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.dds
+    2300006: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.dds
+    2300008: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.dds
+    2300010: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.dds
+    2300012: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.dds
+    2300014: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.dds
+    2300016: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.dds
+    2300018: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    2300020: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.dds
+    2300022: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.dds
+    2300024: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.dds
+    2300026: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.dds
+    2300028: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.dds
+    2300030: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.dds
+    2300032: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.dds
+    2300034: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.dds
+    2300036: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.dds
+    2300038: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.dds
+    2300040: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.dds
+    2300042: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.dds
+    2300044: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.dds
+    2300046: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    2300048: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    2300050: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.dds
+    2300052: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.dds
+    2300054: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    2300056: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.dds
+    2300058: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.dds
+    2300060: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.dds
+    2300062: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.dds
+    2300064: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.dds
+    2300066: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.dds
+    2300068: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.dds
+    2300070: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.dds
+    2300072: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.dds
+    2300074: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.dds
+    2300076: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.dds
+    2300078: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.dds
+    2300080: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.dds
+    2300082: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.dds
+    2300084: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.dds
+    2300086: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.dds
+    2300088: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.dds
+    2300090: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.dds
+    2300092: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.dds
+    2300094: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.dds
+    2300096: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.dds
+    2300098: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.dds
+    2300100: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.dds
+    2300102: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.dds
+    2300104: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.dds
+    2300106: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.dds
+    2300108: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.dds
+    2300110: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.dds
+    2300112: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.dds
+    2300114: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.dds
+    2300116: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.dds
+    2300118: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.dds
+    2300120: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.dds
+    2300122: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.dds
+    2300124: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.dds
+    2300126: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.dds
+    2300128: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.dds
+    3300000: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    3300002: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.dds
+    3300004: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.dds
+    3300006: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.dds
+    3300008: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.dds
+    3300010: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.dds
+    3300012: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.dds
+    3300014: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.dds
+    3300016: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.dds
+    3300018: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    3300020: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.dds
+    3300022: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.dds
+    3300024: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.dds
+    3300026: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.dds
+    3300028: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.dds
+    3300030: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.dds
+    3300032: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.dds
+    3300034: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.dds
+    3300036: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.dds
+    3300038: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.dds
+    3300040: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.dds
+    3300042: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.dds
+    3300044: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.dds
+    3300046: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    3300048: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    3300050: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.dds
+    3300052: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.dds
+    3300054: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    3300056: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.dds
+    3300058: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.dds
+    3300060: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.dds
+    3300062: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.dds
+    3300064: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.dds
+    3300066: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.dds
+    3300068: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.dds
+    3300070: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.dds
+    3300072: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.dds
+    3300074: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.dds
+    3300076: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.dds
+    3300078: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.dds
+    3300080: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.dds
+    3300082: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.dds
+    3300084: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.dds
+    3300086: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.dds
+    3300088: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.dds
+    3300090: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.dds
+    3300092: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.dds
+    3300094: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.dds
+    3300096: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.dds
+    3300098: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.dds
+    3300100: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.dds
+    3300102: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.dds
+    3300104: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.dds
+    3300106: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.dds
+    3300108: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.dds
+    3300110: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.dds
+    3300112: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.dds
+    3300114: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.dds
+    3300116: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.dds
+    3300118: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.dds
+    3300120: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.dds
+    3300122: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.dds
+    3300124: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.dds
+    3300126: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.dds
+    3300128: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.dds
+    4300000: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    4300002: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.dds
+    4300004: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.dds
+    4300006: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.dds
+    4300008: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.dds
+    4300010: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.dds
+    4300012: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.dds
+    4300014: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.dds
+    4300016: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.dds
+    4300018: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    4300020: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.dds
+    4300022: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.dds
+    4300024: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.dds
+    4300026: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.dds
+    4300028: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.dds
+    4300030: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.dds
+    4300032: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.dds
+    4300034: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.dds
+    4300036: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.dds
+    4300038: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.dds
+    4300040: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.dds
+    4300042: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.dds
+    4300044: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.dds
+    4300046: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    4300048: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.dds
+    4300050: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.dds
+    4300052: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.dds
+    4300054: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.dds
+    4300056: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.dds
+    4300058: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.dds
+    4300060: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.dds
+    4300062: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.dds
+    4300064: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.dds
+    4300066: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.dds
+    4300068: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.dds
+    4300070: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.dds
+    4300072: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.dds
+    4300074: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.dds
+    4300076: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.dds
+    4300078: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.dds
+    4300080: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.dds
+    4300082: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.dds
+    4300084: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.dds
+    4300086: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.dds
+    4300088: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.dds
+    4300090: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.dds
+    4300092: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.dds
+    4300094: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.dds
+    4300096: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.dds
+    4300098: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.dds
+    4300100: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.dds
+    4300102: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.dds
+    4300104: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.dds
+    4300106: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.dds
+    4300108: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.dds
+    4300110: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.dds
+    4300112: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.dds
+    4300114: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.dds
+    4300116: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.dds
+    4300118: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.dds
+    4300120: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.dds
+    4300122: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.dds
+    4300124: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.dds
+    4300126: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.dds
+    4300128: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.dds
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.000_Mesh.000_M_Object.000_Mesh.000_M_Material_9ff86b7d.dds_9ff86b7d.ddsMat
+    second: {fileID: 2100000, guid: bca5bd3271041a34d950d06eeeed67e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.001_Mesh.001_M_Object.001_Mesh.001_M_Material.001_1aa89205_1aa89205.ddsMat
+    second: {fileID: 2100000, guid: c7100d3a433f9b946a78be40cbdfb9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.002_Mesh.002_M_Object.002_Mesh.002_M_Material.002_ed6ffc02_ed6ffc02.ddsMat
+    second: {fileID: 2100000, guid: 41ecb8be25e5d574a8fa9d582c36af07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.003_Mesh.003_M_Object.003_Mesh.003_M_Material.003_b770ad74_b770ad74.ddsMat
+    second: {fileID: 2100000, guid: 6ce25695b7226a940892dd6d8108e36b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.004_Mesh.004_M_Object.004_Mesh.004_M_Material.004_a0b8ab49_a0b8ab49.ddsMat
+    second: {fileID: 2100000, guid: cb8834b005ac2d449a5ef1a0a2a3f045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.005_Mesh.005_M_Object.005_Mesh.005_M_Material.005_61c297fb_61c297fb.ddsMat
+    second: {fileID: 2100000, guid: 401b32a1f235738448397ec39911666c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.006_Mesh.006_M_Object.006_Mesh.006_M_Material.006_8d9d5b0c_8d9d5b0c.ddsMat
+    second: {fileID: 2100000, guid: c9b89e727ff56ea43850e2bb378a6cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.007_Mesh.007_M_Object.007_Mesh.007_M_Material.007_9e75ac59_9e75ac59.ddsMat
+    second: {fileID: 2100000, guid: 0564f66423ac0264ab16386678160a13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.008_Mesh.008_M_Object.008_Mesh.008_M_Material.008_5b217ca1_5b217ca1.ddsMat
+    second: {fileID: 2100000, guid: f2b4da68c94f6fc47841faaf07d67948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.009_Mesh.009_M_Object.009_Mesh.009_M_Material.009_8d9d5b0c_8d9d5b0c.ddsMat
+    second: {fileID: 2100000, guid: d42953ddac2215941babd03cba56b7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.010_Mesh.010_M_Object.010_Mesh.010_M_Material.010_a0b8ab49_a0b8ab49.ddsMat
+    second: {fileID: 2100000, guid: b88f9810ed6e4434abc8fb702545a59c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.011_Mesh.011_M_Object.011_Mesh.011_M_Material.011_33f4b978_33f4b978.ddsMat
+    second: {fileID: 2100000, guid: 53e3964332a9feb44a12be55437cf909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.012_Mesh.012_M_Object.012_Mesh.012_M_Material.012_7db3649c_7db3649c.ddsMat
+    second: {fileID: 2100000, guid: 280856cb8b2c3f542a96cc2d4dad5796, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.013_Mesh.013_M_Object.013_Mesh.013_M_Material.013_79a08bee_79a08bee.ddsMat
+    second: {fileID: 2100000, guid: 66a2559c50b69664bba2339a1b821aac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.014_Mesh.014_M_Object.014_Mesh.014_M_Material.014_de95d1c0_de95d1c0.ddsMat
+    second: {fileID: 2100000, guid: 70fef269a98cb3842a8bfda93b7f35ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.015_Mesh.015_M_Object.015_Mesh.015_M_Material.015_a3cf7c70_a3cf7c70.ddsMat
+    second: {fileID: 2100000, guid: 0e4b5a54e50ed6642808c7d472320b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.016_Mesh.016_M_Object.016_Mesh.016_M_Material.016_8d9d5b0c_8d9d5b0c.ddsMat
+    second: {fileID: 2100000, guid: 1a0a12251738cef44b2e209ee2e5d759, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.017_Mesh.017_M_Object.017_Mesh.017_M_Material.004_a0b8ab49_a0b8ab49.ddsMat
+    second: {fileID: 2100000, guid: dbd81221d51af2046acc612cb280d610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.018_Mesh.018_M_Object.018_Mesh.018_M_Material.017_c742dcdf_c742dcdf.ddsMat
+    second: {fileID: 2100000, guid: 4bf85d84bb8ffb34ea5027ff5fff0112, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.019_Mesh.019_M_Object.019_Mesh.019_M_Material.013_79a08bee_79a08bee.ddsMat
+    second: {fileID: 2100000, guid: 131e30418c89c1e4699c09f41f3206f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.020_Mesh.020_M_Object.020_Mesh.020_M_Material.018_b770ad74_b770ad74.ddsMat
+    second: {fileID: 2100000, guid: c54a3ca7d867ed54c859e7d943435c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.021_Mesh.021_M_Object.021_Mesh.021_M_Material.019_dc222d4c_dc222d4c.ddsMat
+    second: {fileID: 2100000, guid: 1dacf4018600d3248b4f0373f51380b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.022_Mesh.022_M_Object.022_Mesh.022_M_Material.020_f1bbc9d3_f1bbc9d3.ddsMat
+    second: {fileID: 2100000, guid: 0e10f43fbba92234c97e07a7e4fe6403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.023_Mesh.023_M_Object.023_Mesh.023_M_Material_9ff86b7d.dds_9ff86b7d.ddsMat
+    second: {fileID: 2100000, guid: 97dd82d24cd7c214997cd06ed3105358, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.024_Mesh.024_M_Object.024_Mesh.024_M_Material_9ff86b7d.dds_9ff86b7d.ddsMat
+    second: {fileID: 2100000, guid: 8fb6d3e32a799b04aa6dc1836ced0fd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.025_Mesh.025_M_Object.025_Mesh.025_M_Material.021_6706ad79_6706ad79.ddsMat
+    second: {fileID: 2100000, guid: ee8a5c30e089e4845b99577761044b9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.026_Mesh.026_M_Object.026_Mesh.026_M_Material.022_b41b73b7_b41b73b7.ddsMat
+    second: {fileID: 2100000, guid: 0767d04a64dc0c142937763faada0e7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.027_Mesh.027_M_Object.027_Mesh.027_M_Material.009_8d9d5b0c_8d9d5b0c.ddsMat
+    second: {fileID: 2100000, guid: 34fd2de7e59cbf24fa6de5cea5ae47cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.028_Mesh.028_M_Object.028_Mesh.028_M_Material.023_bd0ce8a6_bd0ce8a6.ddsMat
+    second: {fileID: 2100000, guid: 8ae0f06c7fe2f1148a8b9624941c6da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.029_Mesh.029_M_Object.029_Mesh.029_M_Material.024_79a08bee_79a08bee.ddsMat
+    second: {fileID: 2100000, guid: 6602cddda347a424db68dff940208aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.030_Mesh.030_M_Object.030_Mesh.030_M_Material.025_be7042bf_be7042bf.ddsMat
+    second: {fileID: 2100000, guid: 24a18969d8f0e2d48adc120aba342290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.031_Mesh.031_M_Object.031_Mesh.031_M_Material.026_03ef6218_03ef6218.ddsMat
+    second: {fileID: 2100000, guid: b57a9cd22d682dc428abd2eccbb37971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.032_Mesh.032_M_Object.032_Mesh.032_M_Material.027_5d9d169a_5d9d169a.ddsMat
+    second: {fileID: 2100000, guid: ae6f6533b839b144a9b1759b43835f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.033_Mesh.033_M_Object.033_Mesh.033_M_Material.028_0ed7a32e_0ed7a32e.ddsMat
+    second: {fileID: 2100000, guid: 3fa87aae6e3c1694bb32623907f6878e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.034_Mesh.034_M_Object.034_Mesh.034_M_Material.013_79a08bee_79a08bee.ddsMat
+    second: {fileID: 2100000, guid: 19af9f88aeeec014187232e221a53624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.035_Mesh.035_M_Object.035_Mesh.035_M_Material.029_f9f01641_f9f01641.ddsMat
+    second: {fileID: 2100000, guid: b4745ae7d7d7f4a4da2d3efeae707427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.036_Mesh.036_M_Object.036_Mesh.036_M_Material.030_b770ad74_b770ad74.ddsMat
+    second: {fileID: 2100000, guid: ffe237d8ae0f252409fb788a8fe7a5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.037_Mesh.037_M_Object.037_Mesh.037_M_Material.031_5d9d169a_5d9d169a.ddsMat
+    second: {fileID: 2100000, guid: 2828788b715a4df43a33564ddebccb24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.038_Mesh.038_M_Object.038_Mesh.038_M_Material.032_18d14fc4_18d14fc4.ddsMat
+    second: {fileID: 2100000, guid: 19805901913412946a370032d3c7f6ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.039_Mesh.039_M_Object.039_Mesh.039_M_Material.033_c8d13a0b_c8d13a0b.ddsMat
+    second: {fileID: 2100000, guid: e3b322a86d1585d4db817ee7e42c0e91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.040_Mesh.040_M_Object.040_Mesh.040_M_Material.034_dd3ec5aa_dd3ec5aa.ddsMat
+    second: {fileID: 2100000, guid: e14272898d13ce64aa26c4ba46876a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.041_Mesh.041_M_Object.041_Mesh.041_M_Material.004_a0b8ab49_a0b8ab49.ddsMat
+    second: {fileID: 2100000, guid: 93c73263c8626504b83d910eb1d54b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.042_Mesh.042_M_Object.042_Mesh.042_M_Material.035_5c060f1a_5c060f1a.ddsMat
+    second: {fileID: 2100000, guid: 53eb3f46cba460846bbe7b337b276886, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.043_Mesh.043_M_Object.043_Mesh.043_M_Material.036_be7042bf_be7042bf.ddsMat
+    second: {fileID: 2100000, guid: 18caf618cc4367742a164e52a6f1c503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.044_Mesh.044_M_Object.044_Mesh.044_M_Material.037_76af8296_76af8296.ddsMat
+    second: {fileID: 2100000, guid: 04d854dd1e89dc948b69ea840f8f2e97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.045_Mesh.045_M_Object.045_Mesh.045_M_Material.038_61c297fb_61c297fb.ddsMat
+    second: {fileID: 2100000, guid: 6c0e1b7e93af7cf44ae28ce10a1c31a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.046_Mesh.046_M_Object.046_Mesh.046_M_Material.039_07de1278_07de1278.ddsMat
+    second: {fileID: 2100000, guid: 58b8c073b143d224ea1d3a94123fea49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.047_Mesh.047_M_Object.047_Mesh.047_M_Material.040_828fd024_828fd024.ddsMat
+    second: {fileID: 2100000, guid: 0aefc2085eda54c48967d64440e9f6b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.048_Mesh.048_M_Object.048_Mesh.048_M_Material.041_c5f910cf_c5f910cf.ddsMat
+    second: {fileID: 2100000, guid: 1885865c2b98a7441a9cf08d51fa16a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.049_Mesh.049_M_Object.049_Mesh.049_M_Material.042_9e75ac59_9e75ac59.ddsMat
+    second: {fileID: 2100000, guid: a9dfdc529b34a2a4fbfd68115e196ee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.050_Mesh.050_M_Object.050_Mesh.050_M_Material.043_b770ad74_b770ad74.ddsMat
+    second: {fileID: 2100000, guid: 00fc5a94b42fa0645a71857f06e5fbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.051_Mesh.051_M_Object.051_Mesh.051_M_Material.044_bd2d0bdb_bd2d0bdb.ddsMat
+    second: {fileID: 2100000, guid: b8a6bc9c288367740b2d490d9ad27011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.052_Mesh.052_M_Object.052_Mesh.052_M_Material.045_930ff7a5_930ff7a5.ddsMat
+    second: {fileID: 2100000, guid: 5318d43d5cc10f748be57a9adc93b1a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.053_Mesh.053_M_Object.053_Mesh.053_M_Material.046_69415af8_69415af8.ddsMat
+    second: {fileID: 2100000, guid: 24ad9cef60f8d124dab8f39c07c80f24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.054_Mesh.054_M_Object.054_Mesh.054_M_Material.047_b08cc0a3_b08cc0a3.ddsMat
+    second: {fileID: 2100000, guid: 8620cd3e99b26e64a988468f1716ad61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.055_Mesh.055_M_Object.055_Mesh.055_M_Material.048_4b94bf94_4b94bf94.ddsMat
+    second: {fileID: 2100000, guid: be09d0b1616230c4b87a918e78607003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.056_Mesh.056_M_Object.056_Mesh.056_M_Material.049_9607508a_9607508a.ddsMat
+    second: {fileID: 2100000, guid: 5738cfcc90b8a6d4c86c0bbe14a964b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.057_Mesh.057_M_Object.057_Mesh.057_M_Material.050_a433247b_a433247b.ddsMat
+    second: {fileID: 2100000, guid: 528996bb7a89ccb44a345598c698a59e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.058_Mesh.058_M_Object.058_Mesh.058_M_Material.051_c299cd2e_c299cd2e.ddsMat
+    second: {fileID: 2100000, guid: 5e29adb9f183e8f42bf138e12e840bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.059_Mesh.059_M_Object.059_Mesh.059_M_Material.052_cd9bf152_cd9bf152.ddsMat
+    second: {fileID: 2100000, guid: 75566acfeb2c633439e26ef5bff5816e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.060_Mesh.060_M_Object.060_Mesh.060_M_Material.039_07de1278_07de1278.ddsMat
+    second: {fileID: 2100000, guid: 4e26e92c1f83f4e4baff9dabd35b8727, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.061_Mesh.061_M_Object.061_Mesh.061_M_Material.053_9c78f12d_9c78f12d.ddsMat
+    second: {fileID: 2100000, guid: 5b877c8139ed24548aee58d19e569f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.062_Mesh.062_M_Object.062_Mesh.062_M_Material.013_79a08bee_79a08bee.ddsMat
+    second: {fileID: 2100000, guid: 940c72dd41b893d44a642374d16ef505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.063_Mesh.063_M_Object.063_Mesh.063_M_Material.054_22426f68_22426f68.ddsMat
+    second: {fileID: 2100000, guid: f94722abb61259544984d66aac48567f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object.064_Mesh.064_M_Object.064_Mesh.064_M_Material.039_07de1278_07de1278.ddsMat
+    second: {fileID: 2100000, guid: 1fc2d13a30543664388de9e3163d61e2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
