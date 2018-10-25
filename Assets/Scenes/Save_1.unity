@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 534669907}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: Untagged
+  m_TagString: CameraMain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -314,7 +314,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83c09afa20354dd4c891354f9fdf3cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _LeonMoving: {fileID: 1726390887}
   _lookAt: {fileID: 1324461430}
   _camTranform: {fileID: 534669905}
 --- !u!114 &534669907
@@ -369,10 +370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4883b9f5cd13a0d4ca82cb2362155fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1324461430}
-  offsetPosition: {x: 0, y: 0, z: 0.5}
-  offsetPositionSpace: 1
-  lookAt: 1
 --- !u!1001 &1045070474
 Prefab:
   m_ObjectHideFlags: 0
@@ -460,6 +457,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 35e4e484d1e533d4798ef6a815491f17, type: 3}
+      propertyPath: m_TagString
+      value: Leon_Kennedy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35e4e484d1e533d4798ef6a815491f17, type: 3}
   m_IsPrefabAsset: 0
@@ -485,7 +486,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1324461429}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.2, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0.2, y: 0.566, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1726390886}
@@ -513,14 +514,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationRate: 360
-  _moveSpeed: 0.15
+  _moveSpeedWalk: 0.1
+  _moveSpeedRun: 0.3
   _valueChangeAnimation: 0
-  _isTurn: 0
+  _isTurnRight: 0
+  _isTurnLeft: 0
+  _isWalkingBack: 0
+  _isPistolAims: 0
   _isTurn_180: 0
   _isIdleKnife: 0
   _isAttackKnife: 0
-  _isPistolAims: 0
-  _isWalkingBack: 0
+  _isRuning: 0
+  _minusRun: 0
 --- !u!54 &1726390888
 Rigidbody:
   m_ObjectHideFlags: 0
