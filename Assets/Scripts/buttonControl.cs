@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class buttonControl : MonoBehaviour {
     // Use this for initialization
@@ -14,7 +16,14 @@ public class buttonControl : MonoBehaviour {
 
     public void onPlayButtonClick()
     {
-        GetComponent<Animator>().SetInteger("Choice",1);
+        if (GetComponent<Animator>().GetInteger("Choice") != 1)
+        {
+            GetComponent<Animator>().SetInteger("Choice", 1);
+        }
+        else
+        {
+            SceneManager.LoadScene("Save_1", LoadSceneMode.Single);
+        }
     }
 
     public void onOptionButtonClick()
@@ -24,6 +33,14 @@ public class buttonControl : MonoBehaviour {
 
     public void onBackButtonClick()
     {
-        GetComponent<Animator>().SetInteger("Choice", 3);
+        if (GetComponent<Animator>().GetInteger("Choice") != 3 )
+        {
+            GetComponent<Animator>().SetInteger("Choice", 3);
+        }
+        else
+        {
+            var QuitPanel = GameObject.Find("Main Camera/UI/QuitPanel");
+            QuitPanel.SetActive(true);
+        }
     }
 }
