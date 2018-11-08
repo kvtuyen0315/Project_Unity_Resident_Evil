@@ -6,7 +6,7 @@ public class Leon_Moving : MonoBehaviour
 {
 #region All Variable.
     // Rigidbody.
-    private Rigidbody _rb;
+    public Rigidbody _rb;
 
     // Animation.
     private Animator _anim;
@@ -118,11 +118,11 @@ public class Leon_Moving : MonoBehaviour
         _minusRun       = false;
 
         // Set Interger Animation.
-        _anim.SetInteger("Turn_Right",       _idTurnRight);
-        _anim.SetInteger("Turn_Left",        _idTurnLeft);
-        _anim.SetInteger("WalkingBack",      _idWalkingBack);
-        _anim.SetInteger("InputHoldActions", _idInputHoldAction);
-        _anim.SetInteger("Attack_Knife",     _idInputAttackKnife);
+        //_anim.SetInteger("Turn_Right",       _idTurnRight);
+        //_anim.SetInteger("Turn_Left",        _idTurnLeft);
+        //_anim.SetInteger("WalkingBack",      _idWalkingBack);
+        //_anim.SetInteger("InputHoldActions", _idInputHoldAction);
+        //_anim.SetInteger("Attack_Knife",     _idInputAttackKnife);
     }
 #endregion
 

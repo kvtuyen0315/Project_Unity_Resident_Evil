@@ -1,0 +1,37 @@
+# Blender MTL File: 'LeachMonster.blend'
+# Material Count: 3
+newmtl mesh0030mat_t0030_0.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd LeachMonster.blend\t0030_0.png
+map_Bump LeachMonster.blend\\t0030_1.png
+
+
+newmtl mesh0068mat_t0068_0.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd LeachMonster.blend\t0068_0.png
+
+
+newmtl mesh0135mat_t0068_3.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd LeachMonster.blend\t0068_3.png
+map_Bump LeachMonster.blend\\t0135_1.png
+
+
