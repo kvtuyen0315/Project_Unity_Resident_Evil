@@ -598,7 +598,7 @@ public class Leon_Moving : MonoBehaviour
     }
 #endregion
 
-    #region Get Target.
+#region Get Target.
     // Target Pistol Aims.
     public bool getTargetIsPistolAims() 
     {

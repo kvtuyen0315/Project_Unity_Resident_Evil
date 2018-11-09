@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera_Follow\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Script_Leon\Anim_Leon.cs" />
+    <Compile Include="Assets\Scripts\Script_Leon\Leon_Custom.cs" />
     <Compile Include="Assets\Scripts\Script_Leon\Leon_Moving.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/KVT/Unity/Resident_Evil/RE/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

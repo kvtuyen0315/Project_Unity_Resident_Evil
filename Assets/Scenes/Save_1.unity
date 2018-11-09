@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83c09afa20354dd4c891354f9fdf3cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _LeonMoving: {fileID: 1726390887}
+  _LeonMoving: {fileID: 1726390885}
   _lookAt: {fileID: 1324461430}
   _camTranform: {fileID: 534669905}
 --- !u!114 &534669907
@@ -420,7 +420,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 35e4e484d1e533d4798ef6a815491f17, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e3433167f00254e4a9cdc7c416e9f8ef, type: 2}
+      objectReference: {fileID: 9100000, guid: 52bb5b9762cd01c46950d8a00810630b, type: 2}
     - target: {fileID: 400012, guid: 35e4e484d1e533d4798ef6a815491f17, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -461,6 +461,10 @@ Prefab:
       propertyPath: m_TagString
       value: Leon_Kennedy
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 35e4e484d1e533d4798ef6a815491f17, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35e4e484d1e533d4798ef6a815491f17, type: 3}
   m_IsPrefabAsset: 0
@@ -497,6 +501,32 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 35e4e484d1e533d4798ef6a815491f17,
     type: 3}
   m_PrefabInternal: {fileID: 1045070474}
+--- !u!114 &1726390885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1726390883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc41978209809d4faa28157af318aa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _runing: 0
+  _walking: 0
+  _turnRight: 0
+  _turnLeft: 0
+  _walkingBack: 0
+  _idleKnife: 0
+  _attackKnife: 0
+  _idlePistol: 0
+  _attackPistol: 0
+  _isRuning: 0
+  _mouseRight: 0
+  _mouseLeft: 0
+  _moveAxis: 0
+  _turnAxis: 0
+  _changeWeapon: 1
 --- !u!4 &1726390886 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 35e4e484d1e533d4798ef6a815491f17,
@@ -508,24 +538,28 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1726390883}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d137b86bf9df724ea02ca2fc914248b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAxis: 0
+  turnAxis: 0
   _rotationRate: 360
   _moveSpeedWalk: 0.1
   _moveSpeedRun: 0.3
+  _speedRotation: 0.005
   _valueChangeAnimation: 0
   _isTurnRight: 0
   _isTurnLeft: 0
+  _isTurn_180: 0
   _isWalkingBack: 0
   _isPistolAims: 0
-  _isTurn_180: 0
   _isIdleKnife: 0
   _isAttackKnife: 0
   _isRuning: 0
-  _minusRun: 0
+  _mouseRight: 0
+  _mouseLeft: 0
 --- !u!54 &1726390888
 Rigidbody:
   m_ObjectHideFlags: 0
