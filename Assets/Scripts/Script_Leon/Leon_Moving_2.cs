@@ -8,6 +8,11 @@ public class Leon_Moving_2 : MonoBehaviour {
     //Animator
     private Animator _anim;
 
+    //Transform chest;
+    //Vector3 eulerAngles0_bone;
+    //Vector3 eulerAngles_bone;
+    //Vector3 vec;
+
     private float _speed = 0.0f;
     private float _speed_Walking = 0.5f;
     private float _speed_Running = 1.0f;
@@ -28,8 +33,12 @@ public class Leon_Moving_2 : MonoBehaviour {
     void Start () {
         _rb = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
-        
 
+        //chest = _anim.GetBoneTransform(HumanBodyBones.Chest);
+        //eulerAngles0_bone = new Vector3(2.632f,360f - 7.893001f,360f - 0.6020001f);
+        //Debug.Log("ban dau x:" + chest.localRotation.eulerAngles.x);
+        //Debug.Log("ban dau y:" + chest.localRotation.eulerAngles.y);
+        //Debug.Log("ban dau z:" + chest.localRotation.eulerAngles.z);
     }
 	
 	// Update is called once per frame
@@ -250,6 +259,10 @@ public class Leon_Moving_2 : MonoBehaviour {
         _is_Pressing_MouseLeft= Input.GetKey(KeyCode.Mouse0);
         _is_Pressing_MouseRight = Input.GetKey(KeyCode.Mouse1);
 
+        if (true)
+        {
+
+        }
         _anim.SetBool("Is_Idle_Pistol", _is_Pressing_MouseRight);
 
         if (_is_Pressing_MouseRight==true)
@@ -257,6 +270,24 @@ public class Leon_Moving_2 : MonoBehaviour {
             //_anim.SetLayerWeight(1, 1);
             //_anim.SetLayerWeight(2, 0);
             _anim.SetBool("Is_Attack_Pistol", _is_Pressing_MouseLeft);
+
+          
+            //if (Input.GetKey(KeyCode.W) == true || Input.GetKey(KeyCode.S) == true)
+            //{
+            //    //Debug.Log("truoc x:" + chest.localRotation.eulerAngles.x);
+            //    //Debug.Log("truoc y:" + chest.localRotation.eulerAngles.y);
+            //    //Debug.Log("truoc z:" + chest.localRotation.eulerAngles.z);
+            //    float angle_x = -Input.GetAxis("Vertical");
+            //    vec = Vector3.right * angle_x;
+            //    eulerAngles_bone.x = eulerAngles_bone.x + vec.x + eulerAngles0_bone.x;
+            //    chest.localRotation = Quaternion.Euler(new Vector3(eulerAngles_bone.x, eulerAngles0_bone.y, eulerAngles0_bone.z));
+
+            //    //chest.localRotation = Quaternion.Euler(new Vector3(Mathf.Clamp(chest.localRotation.eulerAngles.x + vec.x, eulerAngles0_bone.x, 35), eulerAngles0_bone.y, eulerAngles0_bone.z));
+
+            //    //Debug.Log("sau x:" + chest.localRotation.eulerAngles.x);
+            //    //Debug.Log("sau y:" + chest.localRotation.eulerAngles.y);
+            //    //Debug.Log("sau z:" + chest.localRotation.eulerAngles.z);
+            //}
         }
         else
         {
