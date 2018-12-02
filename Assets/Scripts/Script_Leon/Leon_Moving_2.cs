@@ -5,6 +5,7 @@ using UnityEngine;
 public class Leon_Moving_2 : MonoBehaviour {
     #region All Variable 
     private Rigidbody _rb;
+    private CapsuleCollider _capsuacollider;
     //Animator
     private Animator _anim;
 
@@ -15,7 +16,7 @@ public class Leon_Moving_2 : MonoBehaviour {
 
     private float _speed = 0.0f;
     private float _speed_Walking = 0.5f;
-    private float _speed_Running = 1.0f;
+    private float _speed_Running = 1f;
     private float _speed_WalkinngBack = -0.5f;
 
     //private bool _is_Running ;
@@ -33,16 +34,24 @@ public class Leon_Moving_2 : MonoBehaviour {
     void Start () {
         _rb = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
-
+        _capsuacollider = GetComponent<CapsuleCollider>();
         //chest = _anim.GetBoneTransform(HumanBodyBones.Chest);
         //eulerAngles0_bone = new Vector3(2.632f,360f - 7.893001f,360f - 0.6020001f);
         //Debug.Log("ban dau x:" + chest.localRotation.eulerAngles.x);
         //Debug.Log("ban dau y:" + chest.localRotation.eulerAngles.y);
         //Debug.Log("ban dau z:" + chest.localRotation.eulerAngles.z);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void FixedUpdate()
+    {
+        StickToGroundHelper();
+
+    }
+    private void LateUpdate()
+    {
+    }
+    // Update is called once per frame
+    void Update () {
         if (_speed>0)
         {
             //Debug.Log("speed :" + _speed);
@@ -60,11 +69,15 @@ public class Leon_Moving_2 : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.LeftShift) == true)
             {
-                _rb.AddForce(transform.forward * _speed * _speed_Running, ForceMode.VelocityChange);
+                //_rb.AddForce(transform.forward * _speed * 0.6f, ForceMode.VelocityChange);
+                transform.Translate(Vector3.forward * _speed * 0.06f);
+
             }
             else
             {
-                _rb.AddForce(transform.forward * _speed * _speed_Walking, ForceMode.VelocityChange);
+                //_rb.AddForce(transform.forward * _speed * _speed_Walking, ForceMode.VelocityChange);
+                transform.Translate(Vector3.forward * _speed * 0.06f);
+                
             }
         }
        
@@ -291,6 +304,86 @@ public class Leon_Moving_2 : MonoBehaviour {
         }
         else
         {
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.tag == "Visual_Stair")
+        {
+            Debug.Log("_speed  " +_speed);
+            if (_speed!=0)
+            {
+                _anim.SetBool("Is_WalkUpStair", true);
+
+            }
+            else if (_speed==0)
+            {
+                _anim.SetBool("Is_WalkUpStair", false);
+
+            }
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.transform.tag == "Visual_Stair")
+        {
+            Debug.Log("_speed  " + _speed);
+            if (_speed != 0)
+            {
+                _anim.SetBool("Is_WalkUpStair", true);
+
+            }
+            else if (_speed == 0)
+            {
+                _anim.SetBool("Is_WalkUpStair", false);
+
+            }
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.transform.tag == "Visual_Stair")
+        {
+            Debug.Log("va cham " + other.transform.name);
+             _anim.SetBool("Is_WalkUpStair", false);
+
+            
+        }
+    }
+
+    private void StickToGroundHelper()
+    {
+        RaycastHit hitInfo;
+        if (Physics.SphereCast(transform.position + new Vector3(0,0.3f,0), _capsuacollider.radius,Vector3.down, out hitInfo))
+        {
+            if (hitInfo.transform.tag=="Stair")
+            {
+                Debug.DrawLine(transform.position + new Vector3(0, 0.3f, 0), hitInfo.point, Color.green);
+
+                Debug.Log("stickground");
+
+                //_rb.velocity = Vector3.ProjectOnPlane(_rb.velocity, hitInfo.normal);
+                //_rb.velocity = new Vector3(0, 0, 0);
+                if (_anim.GetFloat("Speed") == _speed_WalkinngBack)
+                {
+                    _rb.useGravity = true;
+
+                }
+                else
+                {
+                    _rb.useGravity = false;
+
+                }
+                //_rb.Sleep();
+
+            }
+            else
+            {
+                _rb.useGravity = true;
+
+            }
+
         }
     }
 }

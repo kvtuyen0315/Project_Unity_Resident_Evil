@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Leon_Kennedy
   - CameraMain
+  - Stair
+  - Visual_Stair
+  - Effect_Gunshot
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - Stair
+  - Effect_Gunshot
   - 
   - 
   - 

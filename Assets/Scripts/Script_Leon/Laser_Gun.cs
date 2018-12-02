@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Laser_Gun : MonoBehaviour {
 
-  
+    public Transform pistol;  
     public float range = 100.0f;
     public float damage_Shooting = 10f;
     Ray shootRay;
@@ -25,7 +25,7 @@ public class Laser_Gun : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
+
     }
 
     // Update is called once per frame
@@ -48,38 +48,63 @@ public class Laser_Gun : MonoBehaviour {
     {
         Laser_gunLine.enabled = true;
         Laser_gunLine.SetPosition(0, transform.position);
+        //if (pistol!=null)
+        //{
+        //    Debug.Log("posi 0 = " + transform.position);
+        //    Debug.Log("local posi 0 = " + pistol.InverseTransformPoint(transform.position));
+        //}
+       
 
         shootRay.origin = transform.position;
         shootRay.direction = transform.forward;
-        Laser_gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
 
-       
-        if (Input.GetKey(KeyCode.Mouse0) == true)
+        if (Physics.Raycast(shootRay, out shootHit))
         {
-            
-            if (Physics.Raycast(shootRay, out shootHit))
+            //Laser_gunLine.SetPosition(1, pistol.InverseTransformPoint(shootHit.point));
+            if (shootHit.transform.tag != "Effect_Gunshot") 
             {
-                if (_isPlay_effect == false)
-                {
-                    ChangeHealth_fromCollider target = shootHit.transform.GetComponent<ChangeHealth_fromCollider>();
-                    if (target != null)
-                    {
-                        Debug.Log(shootHit.transform.name);
-                        Debug.Log("mau con lai :" + target.GetHealth());
+                Laser_gunLine.SetPosition(1, shootHit.point);
 
-                        target.TakeDamage(damage_Shooting);
-                    }
-                    var obj = Instantiate(Effect_Impact, shootHit.point, Quaternion.LookRotation(shootHit.normal));
-                    obj.GetComponent<ParticleSystem>().Play();
-                    _isPlay_effect = true;
-
-                }
             }
 
+
+
+            if (Input.GetKey(KeyCode.Mouse0) == true)
+            {
+                if (shootHit.transform.tag != "Effect_Gunshot")
+                {
+                    if (_isPlay_effect == false)
+                    {
+                        ChangeHealth_fromCollider target = shootHit.transform.GetComponent<ChangeHealth_fromCollider>();
+                        if (target != null)
+                        {
+                            Debug.Log(shootHit.transform.name);
+                            Debug.Log("mau con lai :" + target.GetHealth());
+
+                            target.TakeDamage(damage_Shooting);
+
+
+                        }
+
+                        var obj = Instantiate(Effect_Impact, shootHit.point, Quaternion.LookRotation(shootHit.normal));
+
+                        obj.GetComponent<ParticleSystem>().Play();
+                        _isPlay_effect = true;
+
+                    }
+                }
+
+
+            }
+            else
+            {
+                _isPlay_effect = false;
+            }
         }
         else
         {
-            _isPlay_effect = false;
+            Laser_gunLine.SetPosition(1, shootRay.origin + shootRay.direction * range);
+
         }
 
     }

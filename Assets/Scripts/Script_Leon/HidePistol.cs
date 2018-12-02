@@ -11,7 +11,7 @@ public class HidePistol : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //transform.rotation = Quaternion.LookRotation(new Vector3(1, 0, 1));
-
+        //Debug.Log("kich thuoc laser" + sung.GetComponent<Renderer>().bounds.size);
     }
     
     // Update is called once per frame
