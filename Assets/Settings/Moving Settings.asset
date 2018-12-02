@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1834b5e4eb19841bf24a5e0e3e6401, type: 3}
+  m_Name: Moving Settings
+  m_EditorClassIdentifier: 
+  _leonWalkSpeed: 0.5
+  _leonRunSpeed: 2
+  _leonRotationSpeed: 1
+  _leonTurn180Speed: -5
+  _leonMiniumMoveTreshold: 0.007
+  _zWalkSpeed: 0.13
+  _zRunSpeed: 2

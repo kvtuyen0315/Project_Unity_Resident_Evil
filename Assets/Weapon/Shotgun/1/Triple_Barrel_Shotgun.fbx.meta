@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 0151b1a6e6d19ff4cb359a728a383b9e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bolts
+    100002: Cap
+    100004: KBZ
+    100006: Lock
+    100008: MB02
+    100010: Pin
+    100012: red
+    100014: Shell
+    100016: Shell_HLD
+    100018: Sight
+    100020: sight_ball
+    100022: SLC
+    100024: ThreeBarrels
+    100026: trigger
+    100028: Trigger_C
+    100030: //RootNode
+    100032: wooden
+    400000: Bolts
+    400002: Cap
+    400004: KBZ
+    400006: Lock
+    400008: MB02
+    400010: Pin
+    400012: red
+    400014: Shell
+    400016: Shell_HLD
+    400018: Sight
+    400020: sight_ball
+    400022: SLC
+    400024: ThreeBarrels
+    400026: trigger
+    400028: Trigger_C
+    400030: //RootNode
+    400032: wooden
+    2100000: tripleshotgun
+    2100002: Shell
+    2300000: Bolts
+    2300002: Cap
+    2300004: KBZ
+    2300006: Lock
+    2300008: MB02
+    2300010: Pin
+    2300012: red
+    2300014: Shell
+    2300016: Shell_HLD
+    2300018: Sight
+    2300020: sight_ball
+    2300022: SLC
+    2300024: ThreeBarrels
+    2300026: trigger
+    2300028: Trigger_C
+    2300030: wooden
+    3300000: Bolts
+    3300002: Cap
+    3300004: KBZ
+    3300006: Lock
+    3300008: MB02
+    3300010: Pin
+    3300012: red
+    3300014: Shell
+    3300016: Shell_HLD
+    3300018: Sight
+    3300020: sight_ball
+    3300022: SLC
+    3300024: ThreeBarrels
+    3300026: trigger
+    3300028: Trigger_C
+    3300030: wooden
+    4300000: Bolts
+    4300002: Shell_HLD
+    4300004: Pin
+    4300006: Cap
+    4300008: Lock
+    4300010: SLC
+    4300012: wooden
+    4300014: red
+    4300016: Trigger_C
+    4300018: ThreeBarrels
+    4300020: KBZ
+    4300022: MB02
+    4300024: Sight
+    4300026: sight_ball
+    4300028: trigger
+    4300030: Shell
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shell
+    second: {fileID: 2100000, guid: d66fa0b756c061e4583b1dc196d5c5a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tripleshotgun
+    second: {fileID: 2100000, guid: 0be16eed0ae928242964054fee08fea4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

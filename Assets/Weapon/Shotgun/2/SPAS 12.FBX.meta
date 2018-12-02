@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: fc0f9e511b20ce1448b34cc5a7b11366
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: EJECTIONPORT
+    100002: Mesh_0010
+    100004: POMPEH
+    100006: //RootNode
+    100008: TPhotometricLight001
+    100010: TPhotometricLight001.Target
+    100012: TPhotometricLight002
+    100014: TPhotometricLight002.Target
+    100016: TRIGGER
+    400000: EJECTIONPORT
+    400002: Mesh_0010
+    400004: POMPEH
+    400006: //RootNode
+    400008: TPhotometricLight001
+    400010: TPhotometricLight001.Target
+    400012: TPhotometricLight002
+    400014: TPhotometricLight002.Target
+    400016: TRIGGER
+    2100000: Tex_0010_1.dds
+    2300000: EJECTIONPORT
+    2300002: Mesh_0010
+    2300004: POMPEH
+    2300006: TRIGGER
+    3300000: EJECTIONPORT
+    3300002: Mesh_0010
+    3300004: POMPEH
+    3300006: TRIGGER
+    4300000: Mesh_0010
+    4300002: EJECTIONPORT
+    4300004: TRIGGER
+    4300006: POMPEH
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: TPhotometricLight001
+    10800002: TPhotometricLight002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
